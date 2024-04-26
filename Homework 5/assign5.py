@@ -66,7 +66,3 @@ def knapsackContents(capacity, lst):
         l -= 1
 
     return selected_items
-
-
-weight = [Item(60, 10), Item(100, 20), Item(120, 30)]
-print(knapsackContents(60, weight))
